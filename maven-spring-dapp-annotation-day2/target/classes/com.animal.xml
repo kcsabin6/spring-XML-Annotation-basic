@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd">
+       
+       <context:component-scan base-package="com.animals"/>
+       
+       
+        <!-- create instance of Cat class --> 
+        <!-- 
+        <bean id="cat" class="com.animals.Cat">
+        <property name="name" value="cNihaow"/>
+        <property name="color" value="cWhiteee"/>
+        <property name="behaviour" value="cScratch"/>
+        <property name="height" value="20"/>
+        </bean>
+        
+         create instance of Dog class
+        <bean id="dog" class="com.animals.Dog">
+        <property name="name" value="dTommy"/>
+        <property name="color" value="dBlack"/>
+        <property name="behaviour" value="dplay"/>
+        <property name="height" value="80"/>
+        <property name="weight" value="70"/>
+        </bean>
+        
+         create instance of Tiger class
+        <bean id="tiger" class="com.animals.Tiger">
+        <property name="name" value="tMaxxi"/>
+        <property name="color" value="tOrange"/>
+        <property name="behaviour" value="attack"/>
+        <property name="height" value="100"/>
+        <property name="weight" value="170"/>
+        <property name="does" value="kill"/>
+        </bean>
+        
+         create instance of Animal class
+        <bean id="animal" class="com.animals.Animal">
+        <property name="candoes" value="walkorrun"/>
+        <property name="Cat" ref="cat"/>
+        <property name="Dog" ref="dog"/>
+        <property name="Tiger" ref="tiger"/>
+        </bean>
+         -->
+         
+        </beans>
